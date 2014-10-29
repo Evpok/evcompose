@@ -1,0 +1,89 @@
+# ~/.XCompose
+# This file defines custom Compose sequences for Unicode characters
+
+# Import default rules from the system Compose file:
+ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+ 
+ # Fantaisist combinations
+<Multi_key> <BackSpace> <BackSpace> <BackSpace> <U2013> : U0336    # barré, grand (LONG STROKE)
+<Multi_key> <BackSpace> <BackSpace> <BackSpace> <minus> : U0335    # barré, petit (SHORT STROKE)
+
+# Maths, lovely maths
+<Multi_key> <m> <e> : "∈" U2208 # Compose m e
+<Multi_key> <m> <N> : "ℕ" U2115 # Compose m N
+<Multi_key> <m> <R> : "ℝ" U211D # Compose m R
+<Multi_key> <m> <Z> : "ℤ" U2125 # Compose m Z
+<Multi_key> <m> <Q> : "ℚ" U211A # Compose m Q
+<Multi_key> <m> <C> : "ℂ" U2102 # Compose m C
+<Multi_key> <m> <i> : "∞" U221E # Compose m i
+<Multi_key> <m> <o> : "∉" U2209 # Compose m o
+<Multi_key> <m> <l> : "ℓ" U2113 # Compose m l
+<Multi_key> <m> <c>: "∘" U2218 # Compose m c
+<Multi_key> <m> <s> : "⊂" U2282
+<Multi_key> <underscore> <n> : "ₙ" U2099 # Compose _ n
+<Multi_key> <underscore> <i> : "ᵢ" U1D62 # Compose _ i
+<Multi_key> <1> <I> : "𝟙" U1D7D9 # Compose 1 |
+<Multi_key> <m> <d> : "∂" U2202 # Compose m d
+<Multi_key> <m> <I> : "∫" U222B # Compose m I
+<Multi_key> <m> <S> : "∑" U2221 # Compose m S
+<Multi_key> <[> <l> : "⟦" U27E6 # Compose [ l
+<Multi_key> <]> <l> : "⟧" U27E7 # Compose ] l
+<Muli_key> <m> <a> <C> : "𝒞" U1D49E # Compose m a C
+
+# Various
+<Multi_key> <minus> <minus> <greater> : "⟶" U27F6
+<Multi_key> <I> <minus> <minus> <greater> : "⟼" U27FC
+
+# Lettres grecques
+# A better approach is to edit the keyboard layout
+# to add a dead_greek key
+<Multi_key> <mu> <a> : "α"  Greek_alpha
+<Multi_key> <mu> <A> : "Α"  Greek_ALPHA
+<Multi_key> <mu> <b> : "β"  Greek_beta
+<Multi_key> <mu> <B> : "Β"  Greek_BETA
+<Multi_key> <mu> <g> : "γ"  Greek_gamma
+<Multi_key> <mu> <G> : "Γ"  Greek_GAMMA
+<Multi_key> <mu> <d> : "δ"  Greek_delta
+<Multi_key> <mu> <D> : "Δ"  Greek_DELTA
+<Multi_key> <mu> <e> : "ε"  Greek_epsilon
+<Multi_key> <mu> <E> : "Ε"  Greek_EPSILON
+<Multi_key> <mu> <z> : "ζ"  Greek_zeta
+<Multi_key> <mu> <Z> : "Ζ"  Greek_ZETA
+<Multi_key> <mu> <h> : "η"  Greek_eta
+<Multi_key> <mu> <H> : "Η"  Greek_ETA
+<Multi_key> <mu> <j> : "θ"  Greek_theta
+<Multi_key> <mu> <J> : "Θ"  Greek_THETA
+<Multi_key> <mu> <i> : "ι"  Greek_iota
+<Multi_key> <mu> <I> : "Ι"  Greek_IOTA
+<Multi_key> <mu> <k> : "κ"  Greek_kappa
+<Multi_key> <mu> <K> : "Κ"  Greek_KAPPA
+<Multi_key> <mu> <l> : "λ"  Greek_lambda
+<Multi_key> <mu> <L> : "Λ"  Greek_LAMBDA
+<Multi_key> <mu> <m> : "μ"  Greek_mu
+<Multi_key> <mu> <M> : "Μ"  Greek_MU
+<Multi_key> <mu> <n> : "ν"  Greek_nu
+<Multi_key> <mu> <N> : "Ν"  Greek_NU
+<Multi_key> <mu> <x> : "ξ"  Greek_xi
+<Multi_key> <mu> <X> : "Ξ"  Greek_XI
+<Multi_key> <mu> <o> : "ο"  Greek_omicron
+<Multi_key> <mu> <O> : "Ο"  Greek_OMICRON
+<Multi_key> <mu> <p> : "π"  Greek_pi
+<Multi_key> <mu> <P> : "Π"  Greek_PI
+<Multi_key> <mu> <r> : "ρ"  Greek_rho
+<Multi_key> <mu> <R> : "Ρ"  Greek_RHO
+<Multi_key> <mu> <s> : "σ"  Greek_sigma
+<Multi_key> <mu> <S> : "Σ"  Greek_SIGMA
+<Multi_key> <mu> <c> : "ς"  Greek_finalsmallsigma
+<Multi_key> <mu> <C> : "Σ"  Greek_SIGMA
+<Multi_key> <mu> <t> : "τ"  Greek_tau
+<Multi_key> <mu> <T> : "Τ"  Greek_TAU
+<Multi_key> <mu> <u> : "υ"  Greek_upsilon
+<Multi_key> <mu> <U> : "Υ"  Greek_UPSILON
+<Multi_key> <mu> <f> : "φ"  Greek_phi
+<Multi_key> <mu> <F> : "Φ"  Greek_PHI
+<Multi_key> <mu> <q> : "χ"  Greek_chi
+<Multi_key> <mu> <Q> : "Χ"  Greek_CHI
+<Multi_key> <mu> <y> : "ψ"  Greek_psi
+<Multi_key> <mu> <Y> : "Ψ"  Greek_PSI
+<Multi_key> <mu> <w> : "ω"  Greek_omega
+<Multi_key> <mu> <W> : "Ω"  Greek_OMEGA
