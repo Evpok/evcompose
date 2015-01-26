@@ -28,7 +28,8 @@
 <Multi_key> <m> <S> : "∑" U2221 # Compose m S
 <Multi_key> <[> <l> : "⟦" U27E6 # Compose [ l
 <Multi_key> <]> <l> : "⟧" U27E7 # Compose ] l
-<Muli_key> <m> <a> <C> : "𝒞" U1D49E # Compose m a C
+<Multi_key> <m> <a> <C> : "𝒞" U1D49E # Compose m a C
+<Multi_key> <m> <r> : "√" U221A # Square root
 
 # Various
 <Multi_key> <minus> <minus> <greater> : "⟶" U27F6
