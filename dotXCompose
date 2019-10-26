@@ -2,7 +2,7 @@
 # This file defines custom Compose sequences for Unicode characters
 
 # Import default rules from the system Compose file:
- include "%L"
+include "%L"
  
  # Fantaisist combinations
 <Multi_key> <BackSpace> <BackSpace> <BackSpace> <U2013> : U0336    # barré, grand (LONG STROKE)
@@ -22,18 +22,18 @@
 <Multi_key> <m> <s> : "⊂" U2282
 <Multi_key> <underscore> <n> : "ₙ" U2099 # Compose _ n
 <Multi_key> <underscore> <i> : "ᵢ" U1D62 # Compose _ i
-<Multi_key> <1> <I> : "𝟙" U1D7D9 # Compose 1 |
+<Multi_key> <1> <bar> : "𝟙" U1D7D9 # Compose 1 |
 <Multi_key> <m> <d> : "∂" U2202 # Compose m d
 <Multi_key> <m> <I> : "∫" U222B # Compose m I
 <Multi_key> <m> <S> : "∑" U2221 # Compose m S
-<Multi_key> <[> <l> : "⟦" U27E6 # Compose [ l
-<Multi_key> <]> <l> : "⟧" U27E7 # Compose ] l
+<Multi_key> <bracketleft> <bar> : "⟦" U27E6 # Compose [ |
+<Multi_key> <bracketright> <bar> : "⟧" U27E7 # Compose ] |
 <Multi_key> <m> <a> <C> : "𝒞" U1D49E # Compose m a C
 <Multi_key> <m> <r> : "√" U221A # Square root
 
 # Various
 <Multi_key> <minus> <minus> <greater> : "⟶" U27F6
-<Multi_key> <I> <minus> <minus> <greater> : "⟼" U27FC
+<Multi_key> <bar> <minus> <minus> <greater> : "⟼" U27FC
 
 # Lettres grecques
 # A better approach is to edit the keyboard layout
